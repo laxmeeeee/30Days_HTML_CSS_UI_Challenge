@@ -1,0 +1,194 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+}
+
+.header-left a,
+.header-right a {
+    color: #121314;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.flask-icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+
+}
+.grid-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-left a:hover,
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+.container {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+/* Google Logo */
+.logo img {
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-container {
+    margin-top: 20px;
+}
+
+.search-bar {
+    width: 560px;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-bar:focus {
+    border-color: #4285f4;
+    box-shadow: 0 1px 8px rgba(66, 133, 244, 0.3);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #5f6368;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+    background-color: #f1f3f4;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center; /* Centers the footer content */
+    border-top: 1px solid #e4e4e4;
+}
+
+.lang {
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(100, 97, 97);
+    position: relative;
+    top: 10px;
+}
+
+span {
+    color: rgb(50, 61, 162);
+    font-size: 13px;
+    position: relative;
+    left: 7px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px; /* Controls the width of the content inside the footer */
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #101011;
+    text-decoration: none;
+    margin: 0 10px; /* Reduced the margin for closer spacing */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.left-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px; /* Add a gap to maintain equal spacing between links */
+}

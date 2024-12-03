@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    min-height: 100vh;
+}
+
+ .profile-img img{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    left:53px ;   
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center; 
+}
+.card{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    overflow: hidden;
+    color: rgba(67, 61, 61, 0.812);
+     border: 1px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.card *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.card .profile-img{
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    max-width: 40%;
+}
+.card figcaption{
+    padding: 5% 10% 15%;
+}
+.card h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+.card h5{
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #8888;
+    letter-spacing: 1px;
+}
+.card a{
+    color: rgb(75, 94, 200);
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.card a:hover{
+    color: red;
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(52, 51, 51);
+    color: white;
+    transform: scale(1.05);
+}
